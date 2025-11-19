@@ -5,6 +5,20 @@
   text-align: center;
 }
 
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00d991;
+}
+
+/* Change @utility to @layer utilities */
+@layer utilities {
+  .container {
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
